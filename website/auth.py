@@ -3,11 +3,11 @@ auth=Blueprint('auth',__name__)
 
 @auth.route('/login')
 def  login():
-    return "<h1> this is the login page </h1>"
+    return render_template("login.html", text=True)
 
 @auth.route('/logout')
 def logout():
-    return "<p> you will logout shortly</p>"
-@auth.route('/trying')
-def trying():
-    return render_template("base.html")
+    return "u will logout shortly"
+@auth.route('/signup')
+def signup():
+    return render_template("signup.html")
