@@ -1,2 +1,2 @@
-# first-flask-app-
-hey this is the first project in flask im still working on it i hope i get more experience with it
+##One more chapter, buy and sell books made simple 
+hey this is the first project in flask where i've built ecom app using flask on python i got a lot of experience with it tho
